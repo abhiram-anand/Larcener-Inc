@@ -1,7 +1,7 @@
-const login = () => {
+const Search = () => {
     return (
         <h1>Hello</h1>
     );
 }
 
-export default login;
+export default Search;

@@ -1,7 +1,8 @@
-const login = () => {
+
+const nreg = () => {
     return (
         <h1>Hello</h1>
     );
 }
 
-export default login;
+export default nreg;

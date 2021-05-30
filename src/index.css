@@ -1,26 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: rgb(228, 238, 248);
     font-family: 'Montserrat', sans-serif;
 }
 
 .App {
     color: rgb(10, 118, 190);
     font-weight: 600;
-}
-
-.login {
-    margin-top: 10rem;
-}
-
-input {
-    margin-top: 1rem;
-}
-
-.but {
-    margin-top: 2rem;
 }
