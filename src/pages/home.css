@@ -1,31 +1,33 @@
     @media(min-width:968px) {
         .homemain {
-            background-image: url(./images/homebg.png);
+            background-image: url(../images/homebg.png);
             padding: 0;
             margin: 0;
             background-size: cover;
-            background-attachment: fixed;
             height: 100vh;
         }
         .descp {
-            margin: 10% 0 0 5%
+            margin: 10% 0 0 5%;
         }
         .descp h1 {
             font-size: 3rem;
             color: #12223E;
             font-family: 'Inter', sans-serif;
         }
-        .descp p {
+        .descp1 {
             color: #3a3a3a;
             font-family: 'Inter', sans-serif;
             font-size: 1.5rem;
         }
+        .descp2 {
+            display: none;
+        }
         .descp .fad {
-            margin: 4% 0 0 20%;
+            margin: 4% 0 0 0;
             padding: 1rem;
             font-size: 1rem;
             background-color: #12223E;
-            border-radius: 20px;
+            border-radius: 5px;
             cursor: pointer;
         }
         .descp .fad a {
@@ -52,7 +54,7 @@
             font-size: 1.2rem;
         }
         .badge {
-            background-image: url(./images/badge.png);
+            background-image: url(../images/badge.png);
             height: 50vh;
         }
         .doctors {
@@ -62,5 +64,38 @@
     }
     
     @media(max-width:968px) {
-        .home {}
+        .homemain {
+            background-image: url(../images/homebg\ \(2\).png);
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+        }
+        .descp {
+            margin: 25% 0 0 5%;
+        }
+        .descp h1 {
+            font-size: 150%;
+            color: #12223E;
+            font-family: 'Inter', sans-serif;
+        }
+        .descp1 {
+            display: none;
+        }
+        .descp2 {
+            color: #3a3a3a;
+            font-family: 'Inter', sans-serif;
+            font-size: 100%;
+        }
+        .descp .fad {
+            margin: 4% 0 0 0;
+            padding: .8rem;
+            font-size: .8rem;
+            background-color: #12223E;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .descp .fad a {
+            color: rgb(226, 247, 255);
+            text-decoration: none;
+        }
     }
