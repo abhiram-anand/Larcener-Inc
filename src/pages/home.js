@@ -31,11 +31,10 @@ const home = () => {
         </div>
       </div>
       <div className="abtus">
-        <center>
-          <div className="serv">
-            <h1>Our Services</h1>
-            <p>
-              Lorem ipsum dolor sit amet consecteturolor sit amet consectetur
+        <div className="serv">
+          <h1>Our Services</h1>
+          <p>
+            Lorem ipsum dolor sit amet consecteturolor sit amet consectetur
               olor sit amet consectetur adipisicing <br /> elit. Doloribus
               errolor sit amet consecteturor quis repellendus odit eius <br />{" "}
               sapiente hic ullam, revolor sit amet consecteturpudiandae tempora
@@ -43,12 +42,11 @@ const home = () => {
               consecteturntur! Quisquam animi possimus <br /> necessitatibus
               expedita voluptates.
             </p>
-          </div>
+        </div>
 
-          <div className="badge">
-            <div className="panels"></div>
-          </div>
-        </center>
+        <div className="badge">
+          <div className="panels"></div>
+        </div>
       </div>
       <div className="doctors">fdg</div>
       <Footer />

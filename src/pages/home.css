@@ -37,6 +37,8 @@
         .abtus {
             height: 100vh;
             width: 100%;
+            text-align: center;
+            justify-content: center;
             margin: 0;
             padding: 0;
         }
@@ -68,7 +70,7 @@
             background-image: url(../images/homebg\ \(2\).png);
             padding: 0;
             margin: 0;
-            height: 100vh;
+            height: 90vh;
         }
         .descp {
             margin: 25% 0 0 5%;
@@ -97,5 +99,26 @@
         .descp .fad a {
             color: rgb(226, 247, 255);
             text-decoration: none;
+        }
+        .abtus {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .abtus .serv {
+            background-color: rgb(201, 225, 231);
+            padding: 1%;
+        }
+        .abtus .serv h1 {
+            font-size: 170%;
+            font-weight: 600;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            color: #12223E;
+        }
+        .abtus .serv p {
+            color: #3a3a3a;
+            font-size: 100%;
+            padding: 0 1%;
         }
     }
