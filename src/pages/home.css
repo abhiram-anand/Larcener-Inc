@@ -67,6 +67,7 @@
     @media(max-width:968px) {
         .homemain {
             background-image: url(../images/homebg\ \(2\).png);
+            background-size: cover;
             padding: 0;
             margin: 0;
             height: 90vh;
