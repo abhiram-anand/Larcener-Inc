@@ -59,9 +59,8 @@
             background-image: url(../images/badge.png);
             height: 50vh;
         }
-        .doctors {
-            height: 100vh;
-            background-color: rgb(201, 225, 231);
+        .panels {
+            display: none;
         }
     }
     
@@ -120,5 +119,16 @@
             color: #3a3a3a;
             font-size: 100%;
             padding: 0 1%;
+        }
+        .badges {
+            justify-content: center;
+            text-align: center;
+            padding: 5%;
+        }
+        .panels {
+            color: #12223E;
+        }
+        #icon {
+            font-size: 5rem;
         }
     }
